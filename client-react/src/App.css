@@ -1,0 +1,87 @@
+.userInfo{
+    display: inline-block;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin: 10px;
+}
+
+.userInfo img{
+    width: 45px;
+    border-radius: 22px;
+    float: right;
+    margin: 2px;
+}
+.userInfo a{
+    display: block;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80px;
+}
+
+.App-header {
+  background-color: #FFF;
+  padding: 20px;
+  color: blue;
+}
+
+.App-title {
+  font-size: 1.5em;
+  text-align: left;
+  padding: 12px 0px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.App-content{
+    padding: 0px 12px;
+}
+
+.createTask input{
+    width: 80%;
+    display: inline-block;
+}
+.createTask button{
+    margin-top: -3px;
+}
+
+.App-tasks{
+    margin: 10px 0px;
+}
+
+.task{
+    padding: 5px;
+    margin: 2px 0px;
+    border-radius: 5px;
+}
+
+.task-pending{
+    background: #00BFFF;
+    color: white;
+}
+
+.task-ongoing{
+    background: #4B0082;
+    color: white;
+}
+
+.task-completed{
+    background: #008000;
+    color: white;
+}
+
+.task span{
+    width: 70%;
+    display: inline-block;
+    text-align: left;   
+}
+.task button{
+    margin: 0px 2px;
+}
